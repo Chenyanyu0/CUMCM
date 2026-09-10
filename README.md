@@ -1,0 +1,2 @@
+# CUMCM
+mathematical model competition
