@@ -1,0 +1,254 @@
+{
+  "absent_channels": [
+    1,
+    10,
+    11,
+    13,
+    14,
+    17
+  ],
+  "average_time_s": 253.35526707142859,
+  "cleared": 14,
+  "cleared_channels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    15,
+    16,
+    18,
+    19,
+    20
+  ],
+  "cleared_ratio": 1.0,
+  "complete": true,
+  "discovered_sources": 14,
+  "distance_m": 14394.86868043027,
+  "error": "",
+  "failed_clears": 2,
+  "localization_clear_time_s": 3546.973739,
+  "measurements": 99,
+  "phases": {
+    "clear": {
+      "cleared": 10,
+      "distance_m": 2763.4586374674927,
+      "failed_clears": 0,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 602.6917289999996
+    },
+    "localization": {
+      "cleared": 0,
+      "distance_m": 3347.9986734471017,
+      "failed_clears": 0,
+      "measurements": 8,
+      "switches": 8,
+      "virtual_time_s": 717.5997350000005
+    },
+    "probe_clear": {
+      "cleared": 4,
+      "distance_m": 4109.943531535001,
+      "failed_clears": 2,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 847.988707
+    },
+    "search": {
+      "cleared": 0,
+      "distance_m": 4173.467837980677,
+      "failed_clears": 0,
+      "measurements": 69,
+      "switches": 67,
+      "virtual_time_s": 1246.6935680000001
+    },
+    "shared": {
+      "cleared": 0,
+      "distance_m": 0.0,
+      "failed_clears": 0,
+      "measurements": 22,
+      "switches": 22,
+      "virtual_time_s": 132.0
+    }
+  },
+  "planner": {
+    "area_grid_spacing_m": 25.0,
+    "area_measurements": 0,
+    "area_no_signal": 0,
+    "area_tasks_created": 14,
+    "area_tasks_retired": 14,
+    "area_threshold_m2": 1340.63,
+    "center_measurements": 0,
+    "certified_clear_failures": 0,
+    "contour_candidates": 1865,
+    "homing_moves": 0,
+    "one_read_candidates": 455,
+    "one_read_failures": 0,
+    "one_read_limit_m": 39.79367752945934,
+    "one_read_measurements": 3,
+    "one_read_off_center": 3,
+    "one_read_regions": 60,
+    "probe_attempts": 6,
+    "probe_failures": 2,
+    "probe_successes": 4,
+    "shared_localizations": 6,
+    "shared_measurements": 22,
+    "shared_no_signal": 2,
+    "station_visit_order": [
+      0,
+      4,
+      3,
+      2,
+      1,
+      6,
+      5
+    ],
+    "strategy": "optimized",
+    "targets": {
+      "12": {
+        "bearings": 2,
+        "cleared_time_s": 2940.340494,
+        "discovered_time_s": 1204.426581,
+        "failed_probe_positions": [],
+        "located_time_s": 2935.340494,
+        "probe_attempted": true
+      },
+      "15": {
+        "bearings": 5,
+        "cleared_time_s": 3546.973739,
+        "discovered_time_s": 89.0,
+        "failed_probe_positions": [],
+        "located_time_s": 902.675681,
+        "probe_attempted": false
+      },
+      "16": {
+        "bearings": 3,
+        "cleared_time_s": 2308.585205,
+        "discovered_time_s": 1884.747654,
+        "failed_probe_positions": [],
+        "located_time_s": 2168.6938,
+        "probe_attempted": false
+      },
+      "18": {
+        "bearings": 4,
+        "cleared_time_s": 3290.062811,
+        "discovered_time_s": 107.0,
+        "failed_probe_positions": [
+          [
+            -4.735059340588968,
+            600.3288632506732
+          ]
+        ],
+        "located_time_s": 3279.789196,
+        "probe_attempted": true
+      },
+      "19": {
+        "bearings": 4,
+        "cleared_time_s": 406.538623,
+        "discovered_time_s": 113.0,
+        "failed_probe_positions": [
+          [
+            -523.6871872839621,
+            161.30733872540586
+          ]
+        ],
+        "located_time_s": 385.558623,
+        "probe_attempted": true
+      },
+      "2": {
+        "bearings": 2,
+        "cleared_time_s": 1018.911938,
+        "discovered_time_s": 11.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1013.911938,
+        "probe_attempted": true
+      },
+      "20": {
+        "bearings": 3,
+        "cleared_time_s": 440.388745,
+        "discovered_time_s": 119.0,
+        "failed_probe_positions": [],
+        "located_time_s": 378.197699,
+        "probe_attempted": false
+      },
+      "3": {
+        "bearings": 2,
+        "cleared_time_s": 231.790227,
+        "discovered_time_s": 17.0,
+        "failed_probe_positions": [],
+        "located_time_s": 173.657463,
+        "probe_attempted": false
+      },
+      "4": {
+        "bearings": 2,
+        "cleared_time_s": 1111.287234,
+        "discovered_time_s": 23.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1106.287234,
+        "probe_attempted": true
+      },
+      "5": {
+        "bearings": 4,
+        "cleared_time_s": 3242.535739,
+        "discovered_time_s": 29.0,
+        "failed_probe_positions": [],
+        "located_time_s": 3223.468788,
+        "probe_attempted": false
+      },
+      "6": {
+        "bearings": 3,
+        "cleared_time_s": 3324.680384,
+        "discovered_time_s": 35.0,
+        "failed_probe_positions": [],
+        "located_time_s": 391.558623,
+        "probe_attempted": false
+      },
+      "7": {
+        "bearings": 3,
+        "cleared_time_s": 2502.541443,
+        "discovered_time_s": 1854.747654,
+        "failed_probe_positions": [],
+        "located_time_s": 2492.933032,
+        "probe_attempted": false
+      },
+      "8": {
+        "bearings": 2,
+        "cleared_time_s": 1603.810368,
+        "discovered_time_s": 47.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1598.810368,
+        "probe_attempted": true
+      },
+      "9": {
+        "bearings": 3,
+        "cleared_time_s": 1687.787901,
+        "discovered_time_s": 53.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1390.585555,
+        "probe_attempted": false
+      }
+    },
+    "unified_clears_during_search": 4,
+    "unified_dispatches": 29,
+    "unified_guaranteed_misses": 0,
+    "unified_local_choices": 22,
+    "unified_max_window": 10,
+    "unified_mixed_windows": 18,
+    "unified_multi_before_search": 6,
+    "unified_refinements": 9,
+    "unified_region_windows": 21,
+    "unified_s2_windows": 12,
+    "unified_search_choices": 7,
+    "version": "bounded-estimate-v11"
+  },
+  "program_time_s": 2.922000000020489,
+  "search_points_visited": 7,
+  "switches": 97,
+  "time_accounting_error_s": 2.913945991167566e-06,
+  "total_sources": 14,
+  "virtual_time_s": 3546.973739
+}

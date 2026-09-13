@@ -1,0 +1,217 @@
+{
+  "absent_channels": [
+    4,
+    8,
+    9,
+    10,
+    12,
+    13,
+    15,
+    17,
+    18,
+    19
+  ],
+  "average_time_s": 343.0482687,
+  "cleared": 10,
+  "cleared_channels": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    14,
+    16,
+    20
+  ],
+  "cleared_ratio": 1.0,
+  "complete": true,
+  "discovered_sources": 10,
+  "distance_m": 13657.41343904735,
+  "error": "",
+  "failed_clears": 1,
+  "localization_clear_time_s": 3430.482687,
+  "measurements": 108,
+  "phases": {
+    "clear": {
+      "cleared": 5,
+      "distance_m": 1771.6861377215812,
+      "failed_clears": 0,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 379.33722700000015
+    },
+    "localization": {
+      "cleared": 0,
+      "distance_m": 817.1947892007418,
+      "failed_clears": 0,
+      "measurements": 6,
+      "switches": 6,
+      "virtual_time_s": 199.43895800000007
+    },
+    "probe_clear": {
+      "cleared": 5,
+      "distance_m": 6453.305123597775,
+      "failed_clears": 1,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 1318.661024
+    },
+    "search": {
+      "cleared": 0,
+      "distance_m": 4615.227388527253,
+      "failed_clears": 0,
+      "measurements": 91,
+      "switches": 89,
+      "virtual_time_s": 1467.045478
+    },
+    "shared": {
+      "cleared": 0,
+      "distance_m": 0.0,
+      "failed_clears": 0,
+      "measurements": 11,
+      "switches": 11,
+      "virtual_time_s": 66.0
+    }
+  },
+  "planner": {
+    "area_grid_spacing_m": 25.0,
+    "area_measurements": 1,
+    "area_no_signal": 0,
+    "area_tasks_created": 10,
+    "area_tasks_retired": 10,
+    "area_threshold_m2": 1340.63,
+    "center_measurements": 0,
+    "certified_clear_failures": 0,
+    "contour_candidates": 1007,
+    "homing_moves": 0,
+    "one_read_candidates": 417,
+    "one_read_failures": 0,
+    "one_read_limit_m": 39.79367752945934,
+    "one_read_measurements": 1,
+    "one_read_off_center": 1,
+    "one_read_regions": 53,
+    "probe_attempts": 6,
+    "probe_failures": 1,
+    "probe_successes": 5,
+    "shared_localizations": 1,
+    "shared_measurements": 11,
+    "shared_no_signal": 0,
+    "station_visit_order": [
+      0,
+      2,
+      1,
+      6,
+      5,
+      4,
+      3
+    ],
+    "strategy": "optimized",
+    "targets": {
+      "1": {
+        "bearings": 3,
+        "cleared_time_s": 602.172775,
+        "discovered_time_s": 5.0,
+        "failed_probe_positions": [],
+        "located_time_s": 464.004164,
+        "probe_attempted": false
+      },
+      "11": {
+        "bearings": 2,
+        "cleared_time_s": 3158.468286,
+        "discovered_time_s": 65.0,
+        "failed_probe_positions": [],
+        "located_time_s": 3153.468286,
+        "probe_attempted": true
+      },
+      "14": {
+        "bearings": 3,
+        "cleared_time_s": 3430.482687,
+        "discovered_time_s": 748.040805,
+        "failed_probe_positions": [],
+        "located_time_s": 3425.482687,
+        "probe_attempted": true
+      },
+      "16": {
+        "bearings": 2,
+        "cleared_time_s": 2171.527165,
+        "discovered_time_s": 434.004164,
+        "failed_probe_positions": [],
+        "located_time_s": 2166.527165,
+        "probe_attempted": true
+      },
+      "2": {
+        "bearings": 3,
+        "cleared_time_s": 875.01218,
+        "discovered_time_s": 11.0,
+        "failed_probe_positions": [],
+        "located_time_s": 870.01218,
+        "probe_attempted": true
+      },
+      "20": {
+        "bearings": 4,
+        "cleared_time_s": 2699.684537,
+        "discovered_time_s": 1333.953822,
+        "failed_probe_positions": [
+          [
+            -1547.7121768855468,
+            -608.505511990422
+          ]
+        ],
+        "located_time_s": 2690.705801,
+        "probe_attempted": true
+      },
+      "3": {
+        "bearings": 3,
+        "cleared_time_s": 2204.604386,
+        "discovered_time_s": 368.004164,
+        "failed_probe_positions": [],
+        "located_time_s": 2177.527165,
+        "probe_attempted": false
+      },
+      "5": {
+        "bearings": 2,
+        "cleared_time_s": 1609.674696,
+        "discovered_time_s": 29.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1460.554417,
+        "probe_attempted": false
+      },
+      "6": {
+        "bearings": 3,
+        "cleared_time_s": 2272.596766,
+        "discovered_time_s": 380.004164,
+        "failed_probe_positions": [],
+        "located_time_s": 2210.604386,
+        "probe_attempted": false
+      },
+      "7": {
+        "bearings": 2,
+        "cleared_time_s": 3359.229753,
+        "discovered_time_s": 712.040805,
+        "failed_probe_positions": [],
+        "located_time_s": 3354.229753,
+        "probe_attempted": true
+      }
+    },
+    "unified_clears_during_search": 2,
+    "unified_dispatches": 23,
+    "unified_guaranteed_misses": 0,
+    "unified_local_choices": 16,
+    "unified_max_window": 10,
+    "unified_mixed_windows": 12,
+    "unified_multi_before_search": 3,
+    "unified_refinements": 8,
+    "unified_region_windows": 20,
+    "unified_s2_windows": 11,
+    "unified_search_choices": 7,
+    "version": "bounded-estimate-v11"
+  },
+  "program_time_s": 3.077999999979511,
+  "search_points_visited": 7,
+  "switches": 106,
+  "time_accounting_error_s": -8.094698387139942e-07,
+  "total_sources": 10,
+  "virtual_time_s": 3430.482687
+}

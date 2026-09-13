@@ -1,0 +1,241 @@
+{
+  "absent_channels": [
+    5,
+    8,
+    13,
+    16,
+    17,
+    19,
+    20
+  ],
+  "average_time_s": 299.6994582307692,
+  "cleared": 13,
+  "cleared_channels": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    18
+  ],
+  "cleared_ratio": 1.0,
+  "complete": true,
+  "discovered_sources": 13,
+  "distance_m": 15945.464774866005,
+  "error": "",
+  "failed_clears": 1,
+  "localization_clear_time_s": 3896.092957,
+  "measurements": 107,
+  "phases": {
+    "clear": {
+      "cleared": 9,
+      "distance_m": 4757.722423126799,
+      "failed_clears": 0,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 996.5444859999998
+    },
+    "localization": {
+      "cleared": 0,
+      "distance_m": 6051.132819490058,
+      "failed_clears": 0,
+      "measurements": 12,
+      "switches": 10,
+      "virtual_time_s": 1280.2265650000002
+    },
+    "probe_clear": {
+      "cleared": 4,
+      "distance_m": 1108.7712410336508,
+      "failed_clears": 1,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 244.7542480000003
+    },
+    "search": {
+      "cleared": 0,
+      "distance_m": 4027.8382912154975,
+      "failed_clears": 0,
+      "measurements": 83,
+      "switches": 82,
+      "virtual_time_s": 1302.5676579999997
+    },
+    "shared": {
+      "cleared": 0,
+      "distance_m": 0.0,
+      "failed_clears": 0,
+      "measurements": 12,
+      "switches": 12,
+      "virtual_time_s": 72.0
+    }
+  },
+  "planner": {
+    "area_grid_spacing_m": 25.0,
+    "area_measurements": 2,
+    "area_no_signal": 0,
+    "area_tasks_created": 13,
+    "area_tasks_retired": 13,
+    "area_threshold_m2": 1340.63,
+    "center_measurements": 1,
+    "certified_clear_failures": 0,
+    "contour_candidates": 1500,
+    "homing_moves": 0,
+    "one_read_candidates": 308,
+    "one_read_failures": 0,
+    "one_read_limit_m": 39.79367752945934,
+    "one_read_measurements": 2,
+    "one_read_off_center": 2,
+    "one_read_regions": 40,
+    "probe_attempts": 5,
+    "probe_failures": 1,
+    "probe_successes": 4,
+    "shared_localizations": 3,
+    "shared_measurements": 12,
+    "shared_no_signal": 0,
+    "station_visit_order": [
+      0,
+      2,
+      1,
+      6,
+      5,
+      4,
+      3
+    ],
+    "strategy": "optimized",
+    "targets": {
+      "1": {
+        "bearings": 3,
+        "cleared_time_s": 3302.899583,
+        "discovered_time_s": 1566.120614,
+        "failed_probe_positions": [],
+        "located_time_s": 3197.791835,
+        "probe_attempted": false
+      },
+      "10": {
+        "bearings": 2,
+        "cleared_time_s": 1672.035597,
+        "discovered_time_s": 59.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1667.035597,
+        "probe_attempted": true
+      },
+      "11": {
+        "bearings": 3,
+        "cleared_time_s": 3052.368242,
+        "discovered_time_s": 1880.292876,
+        "failed_probe_positions": [],
+        "located_time_s": 3038.570164,
+        "probe_attempted": false
+      },
+      "12": {
+        "bearings": 3,
+        "cleared_time_s": 1311.916132,
+        "discovered_time_s": 1079.614478,
+        "failed_probe_positions": [],
+        "located_time_s": 1290.936132,
+        "probe_attempted": false
+      },
+      "14": {
+        "bearings": 3,
+        "cleared_time_s": 1350.181085,
+        "discovered_time_s": 1091.614478,
+        "failed_probe_positions": [],
+        "located_time_s": 1296.936132,
+        "probe_attempted": false
+      },
+      "15": {
+        "bearings": 3,
+        "cleared_time_s": 3756.06529,
+        "discovered_time_s": 1097.614478,
+        "failed_probe_positions": [],
+        "located_time_s": 1302.936132,
+        "probe_attempted": false
+      },
+      "18": {
+        "bearings": 2,
+        "cleared_time_s": 2789.1877,
+        "discovered_time_s": 107.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1684.035597,
+        "probe_attempted": false
+      },
+      "2": {
+        "bearings": 4,
+        "cleared_time_s": 2444.963057,
+        "discovered_time_s": 374.026729,
+        "failed_probe_positions": [],
+        "located_time_s": 2436.947985,
+        "probe_attempted": false
+      },
+      "3": {
+        "bearings": 2,
+        "cleared_time_s": 646.597412,
+        "discovered_time_s": 17.0,
+        "failed_probe_positions": [],
+        "located_time_s": 641.597412,
+        "probe_attempted": true
+      },
+      "4": {
+        "bearings": 2,
+        "cleared_time_s": 698.436479,
+        "discovered_time_s": 23.0,
+        "failed_probe_positions": [],
+        "located_time_s": 693.436479,
+        "probe_attempted": true
+      },
+      "6": {
+        "bearings": 4,
+        "cleared_time_s": 3896.092957,
+        "discovered_time_s": 746.637451,
+        "failed_probe_positions": [],
+        "located_time_s": 3879.400733,
+        "probe_attempted": false
+      },
+      "7": {
+        "bearings": 4,
+        "cleared_time_s": 2228.149672,
+        "discovered_time_s": 41.0,
+        "failed_probe_positions": [
+          [
+            -624.1624614186471,
+            997.1436096108974
+          ]
+        ],
+        "located_time_s": 2219.853611,
+        "probe_attempted": true
+      },
+      "9": {
+        "bearings": 2,
+        "cleared_time_s": 879.439617,
+        "discovered_time_s": 53.0,
+        "failed_probe_positions": [],
+        "located_time_s": 874.439617,
+        "probe_attempted": true
+      }
+    },
+    "unified_clears_during_search": 2,
+    "unified_dispatches": 32,
+    "unified_guaranteed_misses": 0,
+    "unified_local_choices": 25,
+    "unified_max_window": 10,
+    "unified_mixed_windows": 18,
+    "unified_multi_before_search": 8,
+    "unified_refinements": 11,
+    "unified_region_windows": 27,
+    "unified_s2_windows": 16,
+    "unified_search_choices": 7,
+    "version": "bounded-estimate-v11"
+  },
+  "program_time_s": 4.609000000054948,
+  "search_points_visited": 7,
+  "switches": 104,
+  "time_accounting_error_s": 2.026798938459251e-06,
+  "total_sources": 13,
+  "virtual_time_s": 3896.092957
+}

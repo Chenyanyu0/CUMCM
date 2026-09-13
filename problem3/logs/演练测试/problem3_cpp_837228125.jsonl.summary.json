@@ -1,0 +1,259 @@
+{
+  "absent_channels": [
+    1,
+    3,
+    5,
+    11
+  ],
+  "average_time_s": 226.730584375,
+  "cleared": 16,
+  "cleared_channels": [
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "cleared_ratio": 1.0,
+  "complete": true,
+  "discovered_sources": 16,
+  "distance_m": 14978.446745758447,
+  "error": "",
+  "failed_clears": 0,
+  "localization_clear_time_s": 3627.68935,
+  "measurements": 93,
+  "phases": {
+    "clear": {
+      "cleared": 12,
+      "distance_m": 3097.0308035436433,
+      "failed_clears": 0,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 679.4061619999995
+    },
+    "localization": {
+      "cleared": 0,
+      "distance_m": 6305.2719855805535,
+      "failed_clears": 0,
+      "measurements": 14,
+      "switches": 10,
+      "virtual_time_s": 1341.0543970000006
+    },
+    "probe_clear": {
+      "cleared": 4,
+      "distance_m": 2123.0046225223755,
+      "failed_clears": 0,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 444.6009240000001
+    },
+    "search": {
+      "cleared": 0,
+      "distance_m": 3453.139334111874,
+      "failed_clears": 0,
+      "measurements": 59,
+      "switches": 57,
+      "virtual_time_s": 1042.6278669999997
+    },
+    "shared": {
+      "cleared": 0,
+      "distance_m": 0.0,
+      "failed_clears": 0,
+      "measurements": 20,
+      "switches": 20,
+      "virtual_time_s": 120.0
+    }
+  },
+  "planner": {
+    "area_grid_spacing_m": 25.0,
+    "area_measurements": 1,
+    "area_no_signal": 0,
+    "area_tasks_created": 16,
+    "area_tasks_retired": 16,
+    "area_threshold_m2": 1340.63,
+    "center_measurements": 0,
+    "certified_clear_failures": 0,
+    "contour_candidates": 1990,
+    "homing_moves": 0,
+    "one_read_candidates": 871,
+    "one_read_failures": 0,
+    "one_read_limit_m": 39.79367752945934,
+    "one_read_measurements": 3,
+    "one_read_off_center": 3,
+    "one_read_regions": 110,
+    "probe_attempts": 4,
+    "probe_failures": 0,
+    "probe_successes": 4,
+    "shared_localizations": 4,
+    "shared_measurements": 20,
+    "shared_no_signal": 2,
+    "station_visit_order": [
+      0,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "strategy": "optimized",
+    "targets": {
+      "10": {
+        "bearings": 3,
+        "cleared_time_s": 3176.047612,
+        "discovered_time_s": 434.312131,
+        "failed_probe_positions": [],
+        "located_time_s": 3171.047612,
+        "probe_attempted": true
+      },
+      "12": {
+        "bearings": 4,
+        "cleared_time_s": 2529.631428,
+        "discovered_time_s": 71.0,
+        "failed_probe_positions": [],
+        "located_time_s": 2520.030619,
+        "probe_attempted": false
+      },
+      "13": {
+        "bearings": 2,
+        "cleared_time_s": 236.979236,
+        "discovered_time_s": 77.0,
+        "failed_probe_positions": [],
+        "located_time_s": 194.995701,
+        "probe_attempted": false
+      },
+      "14": {
+        "bearings": 3,
+        "cleared_time_s": 3319.634662,
+        "discovered_time_s": 446.312131,
+        "failed_probe_positions": [],
+        "located_time_s": 3182.047612,
+        "probe_attempted": false
+      },
+      "15": {
+        "bearings": 2,
+        "cleared_time_s": 2733.127947,
+        "discovered_time_s": 1172.027928,
+        "failed_probe_positions": [],
+        "located_time_s": 1231.201734,
+        "probe_attempted": false
+      },
+      "16": {
+        "bearings": 3,
+        "cleared_time_s": 1903.574022,
+        "discovered_time_s": 1757.242638,
+        "failed_probe_positions": [],
+        "located_time_s": 1898.574022,
+        "probe_attempted": true
+      },
+      "17": {
+        "bearings": 3,
+        "cleared_time_s": 2387.985363,
+        "discovered_time_s": 101.0,
+        "failed_probe_positions": [],
+        "located_time_s": 2382.985363,
+        "probe_attempted": false
+      },
+      "18": {
+        "bearings": 3,
+        "cleared_time_s": 2253.402627,
+        "discovered_time_s": 1488.940294,
+        "failed_probe_positions": [],
+        "located_time_s": 2243.794545,
+        "probe_attempted": false
+      },
+      "19": {
+        "bearings": 4,
+        "cleared_time_s": 762.312766,
+        "discovered_time_s": 113.0,
+        "failed_probe_positions": [],
+        "located_time_s": 757.312766,
+        "probe_attempted": true
+      },
+      "2": {
+        "bearings": 3,
+        "cleared_time_s": 687.529282,
+        "discovered_time_s": 11.0,
+        "failed_probe_positions": [],
+        "located_time_s": 482.312131,
+        "probe_attempted": false
+      },
+      "20": {
+        "bearings": 3,
+        "cleared_time_s": 3627.68935,
+        "discovered_time_s": 470.312131,
+        "failed_probe_positions": [],
+        "located_time_s": 3617.502727,
+        "probe_attempted": false
+      },
+      "4": {
+        "bearings": 2,
+        "cleared_time_s": 1260.457181,
+        "discovered_time_s": 23.0,
+        "failed_probe_positions": [],
+        "located_time_s": 1255.457181,
+        "probe_attempted": true
+      },
+      "6": {
+        "bearings": 3,
+        "cleared_time_s": 2552.235817,
+        "discovered_time_s": 35.0,
+        "failed_probe_positions": [],
+        "located_time_s": 2535.631428,
+        "probe_attempted": false
+      },
+      "7": {
+        "bearings": 3,
+        "cleared_time_s": 2834.420745,
+        "discovered_time_s": 41.0,
+        "failed_probe_positions": [],
+        "located_time_s": 2739.127947,
+        "probe_attempted": false
+      },
+      "8": {
+        "bearings": 3,
+        "cleared_time_s": 2091.658439,
+        "discovered_time_s": 1470.940294,
+        "failed_probe_positions": [],
+        "located_time_s": 2056.469483,
+        "probe_attempted": false
+      },
+      "9": {
+        "bearings": 4,
+        "cleared_time_s": 790.694611,
+        "discovered_time_s": 53.0,
+        "failed_probe_positions": [],
+        "located_time_s": 476.312131,
+        "probe_attempted": false
+      }
+    },
+    "unified_clears_during_search": 3,
+    "unified_dispatches": 35,
+    "unified_guaranteed_misses": 0,
+    "unified_local_choices": 29,
+    "unified_max_window": 10,
+    "unified_mixed_windows": 14,
+    "unified_multi_before_search": 7,
+    "unified_refinements": 12,
+    "unified_region_windows": 28,
+    "unified_s2_windows": 22,
+    "unified_search_choices": 6,
+    "version": "bounded-estimate-v11"
+  },
+  "program_time_s": 4.437000000034459,
+  "search_points_visited": 6,
+  "switches": 87,
+  "time_accounting_error_s": 8.483107194479089e-07,
+  "total_sources": 16,
+  "virtual_time_s": 3627.68935
+}
