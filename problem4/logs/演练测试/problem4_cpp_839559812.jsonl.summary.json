@@ -1,0 +1,958 @@
+{
+  "absent_channels": [
+    1,
+    4,
+    8,
+    9,
+    13,
+    16
+  ],
+  "average_localization_clear_time_s": 215.0776021428572,
+  "average_time_s": 474.4764007142857,
+  "cleared": 14,
+  "cleared_channels": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20
+  ],
+  "cleared_source_count": 14,
+  "cleared_source_ratio": 1.0,
+  "complete": true,
+  "distance_m": 27153.34804307793,
+  "error": "",
+  "failed_clears": 0,
+  "localization_clear_total_time_s": 3011.0864300000007,
+  "measurements": 192,
+  "phases": {
+    "approach": {
+      "cleared": 0,
+      "distance_m": 4071.837171255684,
+      "failed_clears": 0,
+      "measurements": 7,
+      "switches": 6,
+      "virtual_time_s": 855.3674340000007
+    },
+    "clear": {
+      "cleared": 14,
+      "distance_m": 4694.138888672435,
+      "failed_clears": 0,
+      "measurements": 0,
+      "switches": 0,
+      "virtual_time_s": 1008.8277779999997
+    },
+    "detour": {
+      "cleared": 0,
+      "distance_m": 5224.456092139282,
+      "failed_clears": 0,
+      "measurements": 10,
+      "switches": 10,
+      "virtual_time_s": 1104.8912180000002
+    },
+    "search": {
+      "cleared": 0,
+      "distance_m": 13162.915891010525,
+      "failed_clears": 0,
+      "measurements": 168,
+      "switches": 159,
+      "virtual_time_s": 3631.5831799999996
+    },
+    "shared": {
+      "cleared": 0,
+      "distance_m": 0.0,
+      "failed_clears": 0,
+      "measurements": 7,
+      "switches": 7,
+      "virtual_time_s": 42.0
+    }
+  },
+  "planner": {
+    "approach_fallbacks": 0,
+    "approach_localizations": 6,
+    "approach_measurements": 7,
+    "approach_no_signal": 0,
+    "approach_plans": [
+      {
+        "anchor_first": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchor_second": {
+          "x": -718.8283212138606,
+          "y": -578.5597869204357
+        },
+        "channel": 18,
+        "kind": "approach_result",
+        "phase": "localization",
+        "predicted_worst_radius_m": 17.95153949344003,
+        "probe": {
+          "x": -814.0485296468302,
+          "y": -3.907375692425601
+        },
+        "radius_after_m": 17.601235105463324,
+        "radius_before_m": 20.066424743676073,
+        "received": true,
+        "request_seq": 190,
+        "start": {
+          "x": -1259.417141815619,
+          "y": 765.1359858663303
+        },
+        "status": "located"
+      },
+      {
+        "anchor_first": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchor_second": {
+          "x": -63.311082462870104,
+          "y": -929.7268732879234
+        },
+        "channel": 5,
+        "kind": "approach_result",
+        "phase": "localization",
+        "predicted_worst_radius_m": 19.48691268933449,
+        "probe": {
+          "x": -638.5283457148037,
+          "y": -694.2730392172853
+        },
+        "radius_after_m": 13.767856702223671,
+        "radius_before_m": 26.976181092243888,
+        "received": true,
+        "request_seq": 192,
+        "start": {
+          "x": -831.2364460963495,
+          "y": 11.28358646132455
+        },
+        "status": "located"
+      },
+      {
+        "anchor_first": {
+          "x": 623.178056957804,
+          "y": -781.4405667267959
+        },
+        "anchor_second": {
+          "x": 203.8769889647719,
+          "y": -1689.0675019327687
+        },
+        "channel": 6,
+        "kind": "approach_result",
+        "phase": "localization",
+        "predicted_worst_radius_m": 30.426401732780544,
+        "probe": {
+          "x": -384.78538446339945,
+          "y": -1269.4693339427613
+        },
+        "radius_after_m": 29.847496620758214,
+        "radius_before_m": 34.497301249577546,
+        "received": true,
+        "request_seq": 195,
+        "start": {
+          "x": -633.071795455826,
+          "y": -1260.2457578244257
+        },
+        "status": "detected"
+      },
+      {
+        "anchor_first": {
+          "x": 203.8769889647719,
+          "y": -1689.0675019327687
+        },
+        "anchor_second": {
+          "x": -384.78538446339945,
+          "y": -1269.4693339427613
+        },
+        "channel": 6,
+        "kind": "approach_result",
+        "phase": "localization",
+        "predicted_worst_radius_m": 18.882906270281058,
+        "probe": {
+          "x": -393.594832776756,
+          "y": -1272.4978785507762
+        },
+        "radius_after_m": 8.547390302589063,
+        "radius_before_m": 29.847496620758214,
+        "received": true,
+        "request_seq": 196,
+        "start": {
+          "x": -384.78538446339945,
+          "y": -1269.4693339427613
+        },
+        "status": "located"
+      },
+      {
+        "anchor_first": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchor_second": {
+          "x": 494.7290190699664,
+          "y": 620.3705678045133
+        },
+        "channel": 10,
+        "kind": "approach_result",
+        "phase": "localization",
+        "predicted_worst_radius_m": 17.595890852957385,
+        "probe": {
+          "x": 789.878761337326,
+          "y": 427.17508216621985
+        },
+        "radius_after_m": 16.428720332108526,
+        "radius_before_m": 24.368864759453377,
+        "received": true,
+        "request_seq": 201,
+        "start": {
+          "x": 1396.5562898719822,
+          "y": -379.88509013108137
+        },
+        "status": "located"
+      },
+      {
+        "anchor_first": {
+          "x": 623.1780569578042,
+          "y": 781.4405667267957
+        },
+        "anchor_second": {
+          "x": -232.53551454969914,
+          "y": 1018.8046566107413
+        },
+        "channel": 15,
+        "kind": "approach_result",
+        "phase": "localization",
+        "predicted_worst_radius_m": 19.53773675104255,
+        "probe": {
+          "x": 497.1532708159787,
+          "y": 1390.2574861007115
+        },
+        "radius_after_m": 14.086015099018477,
+        "radius_before_m": 22.78307851540723,
+        "received": true,
+        "request_seq": 204,
+        "start": {
+          "x": 1184.1788641585078,
+          "y": 941.7390608253464
+        },
+        "status": "located"
+      },
+      {
+        "anchor_first": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchor_second": {
+          "x": 623.1780569578042,
+          "y": 781.4405667267957
+        },
+        "channel": 7,
+        "kind": "approach_result",
+        "phase": "localization",
+        "predicted_worst_radius_m": 28.747751013616384,
+        "probe": {
+          "x": 273.05320277511294,
+          "y": 1146.6005911609075
+        },
+        "radius_after_m": 12.479883915890458,
+        "radius_before_m": 34.38583505598897,
+        "received": true,
+        "request_seq": 206,
+        "start": {
+          "x": 505.3704824785977,
+          "y": 1426.6165548543954
+        },
+        "status": "located"
+      }
+    ],
+    "cache_hits": 0,
+    "close_approach": true,
+    "detour_extra_distance_m": 40.242394906006666,
+    "detour_localizations": 4,
+    "detour_measurements": 10,
+    "detour_no_signal": 0,
+    "detour_off_route": 1,
+    "detour_plans": [
+      {
+        "channel": 10,
+        "destination": {
+          "x": 623.1780569578042,
+          "y": 781.4405667267957
+        },
+        "distance_budget_m": 199.89999999999998,
+        "extra_distance_m": 1.1368683772161603e-13,
+        "incremental_action_time_s": 6.000000000000023,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 58.20164355310299,
+        "probe_kind": "opportunistic",
+        "request_seq": 22,
+        "start": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "via": {
+          "x": 494.7290190699664,
+          "y": 620.3705678045133
+        }
+      },
+      {
+        "channel": 20,
+        "destination": {
+          "x": 999.5,
+          "y": 0.0
+        },
+        "distance_budget_m": 173.46671889919975,
+        "extra_distance_m": 0.0,
+        "incremental_action_time_s": 6.0,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 57.09262524866574,
+        "probe_kind": "opportunistic",
+        "request_seq": 37,
+        "start": {
+          "x": 623.1780569578042,
+          "y": 781.4405667267957
+        },
+        "via": {
+          "x": 897.5003442845896,
+          "y": 211.80446753606145
+        }
+      },
+      {
+        "channel": 5,
+        "destination": {
+          "x": -222.40967348933555,
+          "y": -974.4404482257328
+        },
+        "distance_budget_m": 173.46671889919958,
+        "extra_distance_m": 0.25080202004426155,
+        "incremental_action_time_s": 7.050160404008852,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 54.20434998060572,
+        "probe_kind": "opportunistic",
+        "request_seq": 62,
+        "start": {
+          "x": 623.178056957804,
+          "y": -781.4405667267959
+        },
+        "via": {
+          "x": -63.311082462870104,
+          "y": -929.7268732879234
+        }
+      },
+      {
+        "channel": 18,
+        "destination": {
+          "x": -900.518383468468,
+          "y": -433.6667972479992
+        },
+        "distance_budget_m": 173.4667188991999,
+        "extra_distance_m": 1.1368683772161603e-13,
+        "incremental_action_time_s": 6.000000000000023,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 55.94852931706912,
+        "probe_kind": "opportunistic",
+        "request_seq": 73,
+        "start": {
+          "x": -222.40967348933555,
+          "y": -974.4404482257328
+        },
+        "via": {
+          "x": -718.8283212138606,
+          "y": -578.5597869204357
+        }
+      },
+      {
+        "channel": 3,
+        "destination": {
+          "x": -900.5183834684678,
+          "y": 433.66679724799945
+        },
+        "distance_budget_m": 173.46671889919975,
+        "extra_distance_m": 0.0,
+        "incremental_action_time_s": 7.0,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 41.32327196226478,
+        "probe_kind": "opportunistic",
+        "request_seq": 82,
+        "start": {
+          "x": -900.518383468468,
+          "y": -433.6667972479992
+        },
+        "via": {
+          "x": -900.5183834684678,
+          "y": 173.46671889919986
+        }
+      },
+      {
+        "channel": 2,
+        "destination": {
+          "x": -222.40967348933617,
+          "y": 974.4404482257327
+        },
+        "distance_budget_m": 173.46671889919975,
+        "extra_distance_m": 0.0,
+        "incremental_action_time_s": 6.0,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 42.27582813390919,
+        "probe_kind": "opportunistic",
+        "request_seq": 91,
+        "start": {
+          "x": -900.5183834684678,
+          "y": 433.66679724799945
+        },
+        "via": {
+          "x": -414.96438760333564,
+          "y": 820.8831878159592
+        }
+      },
+      {
+        "channel": 15,
+        "destination": {
+          "x": -444.81934697867234,
+          "y": 1948.8808964514653
+        },
+        "distance_budget_m": 199.89999999999998,
+        "extra_distance_m": 0.0,
+        "incremental_action_time_s": 7.0,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 40.894087431619035,
+        "probe_kind": "opportunistic",
+        "request_seq": 98,
+        "start": {
+          "x": -222.40967348933617,
+          "y": 974.4404482257327
+        },
+        "via": {
+          "x": -232.53551454969914,
+          "y": 1018.8046566107413
+        }
+      },
+      {
+        "channel": 17,
+        "destination": {
+          "x": 1246.3561139156084,
+          "y": 1562.8811334535915
+        },
+        "distance_budget_m": 173.46671889919975,
+        "extra_distance_m": 0.0,
+        "incremental_action_time_s": 7.0,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 44.26214790663849,
+        "probe_kind": "opportunistic",
+        "request_seq": 111,
+        "start": {
+          "x": 400.768383468468,
+          "y": 1755.8810149525284
+        },
+        "via": {
+          "x": 866.7142551033305,
+          "y": 1649.5319103328407
+        }
+      },
+      {
+        "channel": 14,
+        "destination": {
+          "x": 1999.0,
+          "y": 0.0
+        },
+        "distance_budget_m": 173.46671889919975,
+        "extra_distance_m": 0.6145238658689323,
+        "incremental_action_time_s": 7.1229047731737865,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 33.6612331828006,
+        "probe_kind": "opportunistic",
+        "request_seq": 124,
+        "start": {
+          "x": 1622.678056957804,
+          "y": 781.4405667267957
+        },
+        "via": {
+          "x": 1825.8140490160367,
+          "y": 322.457714976483
+        }
+      },
+      {
+        "channel": 6,
+        "destination": {
+          "x": -444.8193469786711,
+          "y": -1948.8808964514656
+        },
+        "distance_budget_m": 173.46671889919958,
+        "extra_distance_m": 39.377069020093245,
+        "incremental_action_time_s": 14.875413804018649,
+        "kind": "detour_plan",
+        "phase": "search",
+        "predicted_net_saving_s": 103.97510422029279,
+        "probe_kind": "opportunistic",
+        "request_seq": 149,
+        "start": {
+          "x": 400.7683834684684,
+          "y": -1755.8810149525286
+        },
+        "via": {
+          "x": 203.8769889647719,
+          "y": -1689.0675019327687
+        }
+      }
+    ],
+    "detour_predicted_saving_s": 531.8388209369684,
+    "estimate_candidates": false,
+    "f_measurements": 0,
+    "g_probe_attempts": 0,
+    "interleave": true,
+    "interleaved_actions": 11,
+    "local_replans": 19,
+    "paired_double_misses": 0,
+    "paired_rounds": 0,
+    "route_clear": true,
+    "search_stations": 22,
+    "search_triangles": 28,
+    "shared_measurements": 7,
+    "shared_no_signal": 1,
+    "targets": {
+      "10": {
+        "approach_attempts": 1,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 3,
+        "bracket_rounds": 0,
+        "cleared_time_s": 6242.569069,
+        "discovered_time_s": 59.0,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            115.93473453504247,
+            241.93411786435036
+          ]
+        ],
+        "heading_total_width_deg": 125.99938332930789,
+        "located_time_s": 6229.973844,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 831.0535603693208,
+          "y": 422.42920095040785
+        },
+        "position_radius_m": 16.428720332108526,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "11": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 2,
+        "bracket_rounds": 0,
+        "cleared_time_s": 5894.779511,
+        "discovered_time_s": 65.0,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            63.85984550302102,
+            152.37202221597977
+          ]
+        ],
+        "heading_total_width_deg": 88.51217671295875,
+        "located_time_s": 660.366719,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 787.5905875646765,
+          "y": -366.9220747241654
+        },
+        "position_radius_m": 17.594613264732864,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "12": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 2,
+        "bracket_rounds": 0,
+        "cleared_time_s": 5499.858856,
+        "discovered_time_s": 1131.645205,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            0.0,
+            16.806674754685503
+          ],
+          [
+            302.8345472760128,
+            360.0
+          ]
+        ],
+        "heading_total_width_deg": 73.97212747867269,
+        "located_time_s": 3764.677432,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": -632.991580177569,
+          "y": -1261.5369780581032
+        },
+        "position_radius_m": 18.60629053388181,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "14": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 2,
+        "bracket_rounds": 0,
+        "cleared_time_s": 6022.042792,
+        "discovered_time_s": 648.366719,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            44.27417051584959,
+            149.94883857451876
+          ]
+        ],
+        "heading_total_width_deg": 105.67466805866917,
+        "located_time_s": 2800.730674,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 1397.0265050208661,
+          "y": -379.8955983498889
+        },
+        "position_radius_m": 19.429667448604285,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "15": {
+        "approach_attempts": 1,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 3,
+        "bracket_rounds": 0,
+        "cleared_time_s": 6556.041491,
+        "discovered_time_s": 390.9,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            188.929828367178,
+            300.1744731810028
+          ]
+        ],
+        "heading_total_width_deg": 111.24464481382478,
+        "located_time_s": 6543.58628,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 506.6521294120382,
+          "y": 1432.287516110377
+        },
+        "position_radius_m": 14.086015099018477,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "17": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 2,
+        "bracket_rounds": 0,
+        "cleared_time_s": 6373.492046,
+        "discovered_time_s": 402.9,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            104.24612638138979,
+            205.612216517329
+          ]
+        ],
+        "heading_total_width_deg": 101.3660901359392,
+        "located_time_s": 2371.997788,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 1185.0615826207738,
+          "y": 943.0236577428939
+        },
+        "position_radius_m": 18.34135279033457,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "18": {
+        "approach_attempts": 1,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 3,
+        "bracket_rounds": 0,
+        "cleared_time_s": 5221.46678,
+        "discovered_time_s": 107.0,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            0.0,
+            12.598167526449402
+          ],
+          [
+            267.9085407936891,
+            360.0
+          ]
+        ],
+        "heading_total_width_deg": 104.6896267327603,
+        "located_time_s": 5211.879015,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": -832.9588959075334,
+          "y": 12.805915823948403
+        },
+        "position_radius_m": 17.601235105463324,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "19": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 2,
+        "bracket_rounds": 0,
+        "cleared_time_s": 702.903348,
+        "discovered_time_s": 113.0,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            80.17121339059686,
+            193.38407921588384
+          ]
+        ],
+        "heading_total_width_deg": 113.21286582528698,
+        "located_time_s": 666.366719,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 1016.538574740385,
+          "y": -156.23242332902825
+        },
+        "position_radius_m": 19.588492630384025,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "2": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 2,
+        "bracket_rounds": 0,
+        "cleared_time_s": 4911.8109,
+        "discovered_time_s": 1568.578642,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            233.80630235008687,
+            352.7609432649544
+          ]
+        ],
+        "heading_total_width_deg": 118.95464091486753,
+        "located_time_s": 1734.788016,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": -799.9342276529799,
+          "y": 1079.822471654515
+        },
+        "position_radius_m": 18.36064997131433,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "20": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 2,
+        "bracket_rounds": 0,
+        "cleared_time_s": 5859.358681,
+        "discovered_time_s": 119.0,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            62.3788914269269,
+            155.9362773342911
+          ]
+        ],
+        "heading_total_width_deg": 93.5573859073642,
+        "located_time_s": 541.349674,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 643.0000173689593,
+          "y": -317.99483631527073
+        },
+        "position_radius_m": 16.355404301766892,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "3": {
+        "approach_attempts": 0,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 4,
+        "bracket_rounds": 0,
+        "cleared_time_s": 5028.13978,
+        "discovered_time_s": 1347.111923,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            224.99850481894623,
+            325.913065447676
+          ]
+        ],
+        "heading_total_width_deg": 100.91456062872976,
+        "located_time_s": 4397.077589,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": -1259.6212606685535,
+          "y": 764.9953729578024
+        },
+        "position_radius_m": 19.65213613379931,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "5": {
+        "approach_attempts": 1,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 3,
+        "bracket_rounds": 0,
+        "cleared_time_s": 5386.011027,
+        "discovered_time_s": 29.0,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            0.0,
+            72.27899142567003
+          ],
+          [
+            316.2272809676793,
+            360.0
+          ]
+        ],
+        "heading_total_width_deg": 116.05171045799074,
+        "located_time_s": 5373.746863,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": -671.5928739739015,
+          "y": -720.8999215255841
+        },
+        "position_radius_m": 13.767856702223671,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "6": {
+        "approach_attempts": 2,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 4,
+        "bracket_rounds": 0,
+        "cleared_time_s": 5571.147094,
+        "discovered_time_s": 880.128325,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            294.40885873709794,
+            326.8403054636726
+          ]
+        ],
+        "heading_total_width_deg": 32.43144672657468,
+        "located_time_s": 5562.41349,
+        "omnidirectional_possible": false,
+        "position_center": {
+          "x": -422.7866760508077,
+          "y": -1265.4925695177358
+        },
+        "position_radius_m": 8.547390302589063,
+        "source_type": "directional",
+        "status": "cleared",
+        "trial_attempts": 0
+      },
+      "7": {
+        "approach_attempts": 1,
+        "approach_blocked": false,
+        "approach_stalls": 0,
+        "bearings": 3,
+        "bracket_rounds": 0,
+        "cleared_time_s": 6642.66961,
+        "discovered_time_s": 41.0,
+        "failed_trial_points": 0,
+        "heading_intervals_deg": [
+          [
+            220.58867451509445,
+            347.3311196210975
+          ]
+        ],
+        "heading_total_width_deg": 126.74244510600306,
+        "located_time_s": 6634.809687,
+        "omnidirectional_possible": true,
+        "position_center": {
+          "x": 275.38864582711574,
+          "y": 1168.1943940953415
+        },
+        "position_radius_m": 12.479883915890458,
+        "source_type": "undetermined",
+        "status": "cleared",
+        "trial_attempts": 0
+      }
+    },
+    "transit_clear_extra_distance_m": 26.474440252708064,
+    "transit_clear_plans": [
+      {
+        "channel": 19,
+        "destination": {
+          "x": 623.178056957804,
+          "y": -781.4405667267959
+        },
+        "extra_distance_m": 26.474440252708064,
+        "kind": "transit_clear",
+        "phase": "search",
+        "predicted_saving_s": 6.28961688198383,
+        "request_seq": 51,
+        "start": {
+          "x": 999.5,
+          "y": 0.0
+        },
+        "via": {
+          "x": 1013.1383281938619,
+          "y": -157.09223719972843
+        }
+      }
+    ],
+    "transit_clears": 1,
+    "trial_clear": false,
+    "trial_clear_plans": [],
+    "trial_clears": 0,
+    "trial_failures": 0,
+    "trial_successes": 0,
+    "unified_choice": true,
+    "version": "directional-v4-scheduling"
+  },
+  "program_time_s": 1.3589999999385327,
+  "search_points_visited": 22,
+  "switches": 182,
+  "time_accounting_error_s": 1.3844137356500141e-06,
+  "total_source_count": 14,
+  "virtual_time_s": 6642.66961
+}
